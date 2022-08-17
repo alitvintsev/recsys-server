@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project files and dirs
+.DS_Store
+.streamlit/
+.idea/
+backend/data/
