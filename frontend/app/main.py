@@ -30,7 +30,7 @@ def run_app():
     # get user input from text areas in a Streamlit app
     description = st.text_area(label="Input Description", value="", height=None)
 
-    st.button(label="Get Prediction", on_click=get_prediction(description, ip='89.108.99.210'))
+    st.button(label="Get Prediction", on_click=get_prediction(description, ip='91.105.196.201'))
 
     # m = folium.Map(location=[39.949610, -75.150282], zoom_start=5)
     # folium.Marker(
